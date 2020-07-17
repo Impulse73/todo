@@ -116,8 +116,17 @@
                 }
                 return tasksFiltered
             },
+            getListNotDeleted(list){
+                let listTmp = []
+                for(let i = 0; i < list.length; i++){
+                    if (list[i].value.isDeleted == false) {
+                        listTmp.push(list[i])
+                    }
+                }
+                return listTmp
+            },
             filter() {
-                let tmp = this.$store.getters.getList;
+                let tmp = this.getListNotDeleted(this.$store.getters.getList)
                 this.Tasks = []
                 if (this.select == null) {
                     this.Tasks = tmp
