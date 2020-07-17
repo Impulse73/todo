@@ -1,6 +1,9 @@
 # todo
 ### Author:
 Tyugashev Ilya / Тюгашев Илья
+### Тестовое задание на Vue.js
+ ToDo List - приложение на стеке Vue/Vuex.
+ Компоненты: Задача, Список задач, Форма добавления Задачи
 ## Project setup
 ```
 npm install
