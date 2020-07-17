@@ -1,5 +1,6 @@
 # todo
-
+### Author:
+Tyugashev Ilya / Тюгашев Илья
 ## Project setup
 ```
 npm install
